@@ -1,0 +1,7 @@
+database
+name = 4219393_ HolaMundo
+pass = IAfIow.#2bD;zo+^
+
+ftp
+username = 4219393_Spartan2502
+pass = u5E7AN0!1jZ/Q@0C

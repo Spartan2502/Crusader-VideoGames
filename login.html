@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crusader Industries</title>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="./css/Login.css">
+</head>
+
+<body>
+
+   
+
+    <div class="container" id="container">
+        <div class="form-container sign-up-container flow">
+            <form method="POST" action="./php/Register.Controller.php">
+                <!-- form registro -->
+                <h1>Crear Cuenta</h1>
+                <h3>Vincula tus cuentas</h3>
+                <input type="text" placeholder="Steam" name="steam" />
+                <input type="text" placeholder="Epic games" name="epic"/>
+                <input type="text" placeholder="Gog gaming" name="gog"/>
+                <h3>Datos de inicio</h3>
+                <input type="text" placeholder="Usuario" name="name"/>
+                <input type="email" placeholder="Correo" name="email" />
+                <input type="password" placeholder="Contraseña" name="password" />
+                <button>Registrarse</button>
+            </form>
+        </div>
+        <!-- form registro -->
+
+        <!-- form inicio sesion -->
+        <div class="form-container sign-in-container">
+            <form method="POST" action="Login.Controller.php">
+                <h1>Iniciar sesion</h1>
+                <input type="email" placeholder="Email" name="email" />
+                <input type="password" placeholder="Password" name="password" />
+                <a href="#">Olvidaste tu contraseña</a>
+                <button>Iniciar Sesion</button>
+            </form>
+            
+        </div>
+
+        <!-- form inicio sesion -->
+
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <img src="img/crusader_industries_by_tfphoenix_d9qq8ja-fullview (1).png" alt="" width="250px">
+                    <p>Ya tienes cuenta?? Inicia Sesion!</p>
+                    <button class="ghost" id="signIn">Iniciar Sesion</button>
+                    <a id="button" href="./index.html">Volver al inicio</a>    
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <img src="img/crusader_industries_by_tfphoenix_d9qq8ja-fullview (1).png" alt="" width="250px">
+                    <p>no tienes cuenta crea una!</p>
+                    <button class="ghost" id="signUp">Registrarse</button>
+                    <a id="button" href="./index.html">Volver al inicio</a>    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   
+    
+    <footer>
+        
+    </footer>
+    <script src="js/Login.js"></script>
+</body>
+</html>
